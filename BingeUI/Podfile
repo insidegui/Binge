@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'BingeUI' do
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'TMDBCore', :path => '../TMDBCore'
+
+end

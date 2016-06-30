@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SeriesCollectionViewItem" customModule="Binge" customModuleProvider="target">
+            <connections>
+                <outlet property="favoriteButton" destination="TIf-Nn-rzi" id="xzP-qE-Prv"/>
+                <outlet property="posterView" destination="IjL-sA-AAP" id="sVb-Gt-x1d"/>
+                <outlet property="titleLabel" destination="f1d-Fx-pa5" id="V3p-CO-JZo"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView wantsLayer="YES" id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="295"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <stackView wantsLayer="YES" distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CwZ-Te-3s4">
+                    <rect key="frame" x="0.0" y="0.0" width="180" height="295"/>
+                    <subviews>
+                        <customView translatesAutoresizingMaskIntoConstraints="NO" id="M5A-WC-1H5">
+                            <rect key="frame" x="0.0" y="27" width="180" height="268"/>
+                            <subviews>
+                                <imageView wantsLayer="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IjL-sA-AAP">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="268"/>
+                                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="placeholder" id="pNh-bd-PWY"/>
+                                </imageView>
+                                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TIf-Nn-rzi" customClass="BingeMaskButton" customModule="Binge" customModuleProvider="target">
+                                    <rect key="frame" x="146" y="237" width="22" height="22"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="22" id="2LT-QC-gzZ"/>
+                                        <constraint firstAttribute="height" constant="22" id="Q3N-Iq-9R1"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="heart-outline" imagePosition="only" alignment="center" alternateImage="heart" imageScaling="proportionallyDown" inset="2" id="vDU-iy-xwv">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="toggleFavorite:" target="-2" id="Slz-6Q-7dc"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="180" id="2gh-Sn-l99"/>
+                                <constraint firstItem="IjL-sA-AAP" firstAttribute="leading" secondItem="M5A-WC-1H5" secondAttribute="leading" id="3Sa-1T-NKJ"/>
+                                <constraint firstAttribute="bottom" secondItem="IjL-sA-AAP" secondAttribute="bottom" id="N75-Yc-5bD"/>
+                                <constraint firstAttribute="height" constant="268" id="YGi-IN-FNa"/>
+                                <constraint firstItem="IjL-sA-AAP" firstAttribute="top" secondItem="M5A-WC-1H5" secondAttribute="top" id="cNP-y0-842"/>
+                                <constraint firstAttribute="trailing" secondItem="IjL-sA-AAP" secondAttribute="trailing" id="npe-SK-LOQ"/>
+                                <constraint firstAttribute="trailing" secondItem="TIf-Nn-rzi" secondAttribute="trailing" constant="12" id="uKG-jY-af8"/>
+                                <constraint firstItem="TIf-Nn-rzi" firstAttribute="top" secondItem="M5A-WC-1H5" secondAttribute="top" constant="9" id="yCx-uM-nl0"/>
+                            </constraints>
+                        </customView>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f1d-Fx-pa5">
+                            <rect key="frame" x="66" y="0.0" width="49" height="19"/>
+                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="Skv-G1-DS9">
+                                <font key="font" metaFont="systemMedium" size="16"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CwZ-Te-3s4" secondAttribute="trailing" id="2jl-Gm-eAJ"/>
+                <constraint firstAttribute="bottom" secondItem="CwZ-Te-3s4" secondAttribute="bottom" id="7ZA-PH-nTB"/>
+                <constraint firstItem="CwZ-Te-3s4" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="Gfz-UM-Z69"/>
+                <constraint firstItem="CwZ-Te-3s4" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="LFL-UT-maU"/>
+            </constraints>
+        </customView>
+    </objects>
+    <resources>
+        <image name="heart" width="144" height="138"/>
+        <image name="heart-outline" width="144" height="138"/>
+        <image name="placeholder" width="185" height="278"/>
+    </resources>
+</document>

@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'TMDBCore' do
+  
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+
+end

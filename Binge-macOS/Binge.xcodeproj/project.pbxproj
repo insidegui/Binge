@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B3D07CB6A27010470612D8 /* Pods_Binge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C742522D08505CB51556E0 /* Pods_Binge.framework */; };
+		DDBE9CA51D1A44EA00CD654E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CA41D1A44EA00CD654E /* AppDelegate.swift */; };
+		DDBE9CA71D1A44EA00CD654E /* SeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CA61D1A44EA00CD654E /* SeriesViewController.swift */; };
+		DDBE9CA91D1A44EA00CD654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBE9CA81D1A44EA00CD654E /* Assets.xcassets */; };
+		DDBE9CAC1D1A44EB00CD654E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBE9CAA1D1A44EB00CD654E /* Main.storyboard */; };
+		DDBE9CB81D1A48EE00CD654E /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CB71D1A48EE00CD654E /* MainWindowController.swift */; };
+		DDBE9CBC1D1A4C9C00CD654E /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CBB1D1A4C9C00CD654E /* GridLayout.swift */; };
+		DDBE9CBF1D1A52F800CD654E /* SeriesCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CBD1D1A52F800CD654E /* SeriesCollectionViewItem.swift */; };
+		DDBE9CC01D1A52F800CD654E /* SeriesCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDBE9CBE1D1A52F800CD654E /* SeriesCollectionViewItem.xib */; };
+		DDBE9CC61D1A604200CD654E /* DarkWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CC51D1A604200CD654E /* DarkWindow.swift */; };
+		DDBE9CCA1D1AFC8E00CD654E /* BingeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CC91D1AFC8E00CD654E /* BingeScrollView.swift */; };
+		DDBE9CCC1D1B094600CD654E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CCB1D1B094600CD654E /* LoadingView.swift */; };
+		DDBE9CCF1D1B0A6F00CD654E /* BingeFocusRing.car in Resources */ = {isa = PBXBuildFile; fileRef = DDBE9CCD1D1B0A6F00CD654E /* BingeFocusRing.car */; };
+		DDBE9CD01D1B0A6F00CD654E /* BingeProgressIndicator.car in Resources */ = {isa = PBXBuildFile; fileRef = DDBE9CCE1D1B0A6F00CD654E /* BingeProgressIndicator.car */; };
+		DDBE9CD81D1B2BDC00CD654E /* BingeMaskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE9CD71D1B2BDC00CD654E /* BingeMaskButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86076AB0561180FB7BC8D742 /* Pods-Binge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Binge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Binge/Pods-Binge.release.xcconfig"; sourceTree = "<group>"; };
+		B9C742522D08505CB51556E0 /* Pods_Binge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Binge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBE9CA11D1A44EA00CD654E /* Binge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Binge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBE9CA41D1A44EA00CD654E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDBE9CA61D1A44EA00CD654E /* SeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewController.swift; sourceTree = "<group>"; };
+		DDBE9CA81D1A44EA00CD654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBE9CAB1D1A44EB00CD654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDBE9CAD1D1A44EB00CD654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBE9CB71D1A48EE00CD654E /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		DDBE9CBB1D1A4C9C00CD654E /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		DDBE9CBD1D1A52F800CD654E /* SeriesCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesCollectionViewItem.swift; sourceTree = "<group>"; };
+		DDBE9CBE1D1A52F800CD654E /* SeriesCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeriesCollectionViewItem.xib; sourceTree = "<group>"; };
+		DDBE9CC51D1A604200CD654E /* DarkWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkWindow.swift; sourceTree = "<group>"; };
+		DDBE9CC91D1AFC8E00CD654E /* BingeScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingeScrollView.swift; sourceTree = "<group>"; };
+		DDBE9CCB1D1B094600CD654E /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DDBE9CCD1D1B0A6F00CD654E /* BingeFocusRing.car */ = {isa = PBXFileReference; lastKnownFileType = file; name = BingeFocusRing.car; path = Resources/BingeFocusRing.car; sourceTree = "<group>"; };
+		DDBE9CCE1D1B0A6F00CD654E /* BingeProgressIndicator.car */ = {isa = PBXFileReference; lastKnownFileType = file; name = BingeProgressIndicator.car; path = Resources/BingeProgressIndicator.car; sourceTree = "<group>"; };
+		DDBE9CD61D1B28F000CD654E /* Binge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Binge.entitlements; sourceTree = "<group>"; };
+		DDBE9CD71D1B2BDC00CD654E /* BingeMaskButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BingeMaskButton.swift; sourceTree = "<group>"; };
+		E150266FDCDA59DFCCC7280E /* Pods-Binge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Binge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Binge/Pods-Binge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBE9C9E1D1A44EA00CD654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3D07CB6A27010470612D8 /* Pods_Binge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9146CE05EC6FE7FFD76D3792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C742522D08505CB51556E0 /* Pods_Binge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDBE9C981D1A44EA00CD654E = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CA31D1A44EA00CD654E /* Binge */,
+				DDBE9CA21D1A44EA00CD654E /* Products */,
+				FD9D999AD1317B9A207E7823 /* Pods */,
+				9146CE05EC6FE7FFD76D3792 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBE9CA21D1A44EA00CD654E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CA11D1A44EA00CD654E /* Binge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBE9CA31D1A44EA00CD654E /* Binge */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CD61D1B28F000CD654E /* Binge.entitlements */,
+				DDBE9CB61D1A46EA00CD654E /* Resources */,
+				DDBE9CB51D1A46E200CD654E /* Views */,
+				DDBE9CB41D1A46DD00CD654E /* Controllers */,
+				DDBE9CB31D1A46DA00CD654E /* Bootstrap */,
+			);
+			path = Binge;
+			sourceTree = "<group>";
+		};
+		DDBE9CB31D1A46DA00CD654E /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CA41D1A44EA00CD654E /* AppDelegate.swift */,
+			);
+			name = Bootstrap;
+			sourceTree = "<group>";
+		};
+		DDBE9CB41D1A46DD00CD654E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CB71D1A48EE00CD654E /* MainWindowController.swift */,
+				DDBE9CA61D1A44EA00CD654E /* SeriesViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DDBE9CB51D1A46E200CD654E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CC51D1A604200CD654E /* DarkWindow.swift */,
+				DDBE9CBB1D1A4C9C00CD654E /* GridLayout.swift */,
+				DDBE9CBD1D1A52F800CD654E /* SeriesCollectionViewItem.swift */,
+				DDBE9CC91D1AFC8E00CD654E /* BingeScrollView.swift */,
+				DDBE9CCB1D1B094600CD654E /* LoadingView.swift */,
+				DDBE9CD71D1B2BDC00CD654E /* BingeMaskButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DDBE9CB61D1A46EA00CD654E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDBE9CCD1D1B0A6F00CD654E /* BingeFocusRing.car */,
+				DDBE9CCE1D1B0A6F00CD654E /* BingeProgressIndicator.car */,
+				DDBE9CA81D1A44EA00CD654E /* Assets.xcassets */,
+				DDBE9CAA1D1A44EB00CD654E /* Main.storyboard */,
+				DDBE9CAD1D1A44EB00CD654E /* Info.plist */,
+				DDBE9CBE1D1A52F800CD654E /* SeriesCollectionViewItem.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD9D999AD1317B9A207E7823 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E150266FDCDA59DFCCC7280E /* Pods-Binge.debug.xcconfig */,
+				86076AB0561180FB7BC8D742 /* Pods-Binge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBE9CA01D1A44EA00CD654E /* Binge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBE9CB01D1A44EB00CD654E /* Build configuration list for PBXNativeTarget "Binge" */;
+			buildPhases = (
+				812C5AC1DD2AB060782955E4 /* Check Pods Manifest.lock */,
+				DDBE9C9D1D1A44EA00CD654E /* Sources */,
+				DDBE9C9E1D1A44EA00CD654E /* Frameworks */,
+				DDBE9C9F1D1A44EA00CD654E /* Resources */,
+				80D903C0FF09BD713AAC1793 /* Embed Pods Frameworks */,
+				981BA7784732E0409BAB2E4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Binge;
+			productName = Binge;
+			productReference = DDBE9CA11D1A44EA00CD654E /* Binge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBE9C991D1A44EA00CD654E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DDBE9CA01D1A44EA00CD654E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8C7439RJLG;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DDBE9C9C1D1A44EA00CD654E /* Build configuration list for PBXProject "Binge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBE9C981D1A44EA00CD654E;
+			productRefGroup = DDBE9CA21D1A44EA00CD654E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBE9CA01D1A44EA00CD654E /* Binge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBE9C9F1D1A44EA00CD654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBE9CA91D1A44EA00CD654E /* Assets.xcassets in Resources */,
+				DDBE9CC01D1A52F800CD654E /* SeriesCollectionViewItem.xib in Resources */,
+				DDBE9CAC1D1A44EB00CD654E /* Main.storyboard in Resources */,
+				DDBE9CCF1D1B0A6F00CD654E /* BingeFocusRing.car in Resources */,
+				DDBE9CD01D1B0A6F00CD654E /* BingeProgressIndicator.car in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80D903C0FF09BD713AAC1793 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Binge/Pods-Binge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		812C5AC1DD2AB060782955E4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		981BA7784732E0409BAB2E4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Binge/Pods-Binge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBE9C9D1D1A44EA00CD654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBE9CA71D1A44EA00CD654E /* SeriesViewController.swift in Sources */,
+				DDBE9CBC1D1A4C9C00CD654E /* GridLayout.swift in Sources */,
+				DDBE9CCA1D1AFC8E00CD654E /* BingeScrollView.swift in Sources */,
+				DDBE9CD81D1B2BDC00CD654E /* BingeMaskButton.swift in Sources */,
+				DDBE9CA51D1A44EA00CD654E /* AppDelegate.swift in Sources */,
+				DDBE9CBF1D1A52F800CD654E /* SeriesCollectionViewItem.swift in Sources */,
+				DDBE9CCC1D1B094600CD654E /* LoadingView.swift in Sources */,
+				DDBE9CB81D1A48EE00CD654E /* MainWindowController.swift in Sources */,
+				DDBE9CC61D1A604200CD654E /* DarkWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDBE9CAA1D1A44EB00CD654E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDBE9CAB1D1A44EB00CD654E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDBE9CAE1D1A44EB00CD654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDBE9CAF1D1A44EB00CD654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDBE9CB11D1A44EB00CD654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E150266FDCDA59DFCCC7280E /* Pods-Binge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Binge/Binge.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Binge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.guilhermerambo.Binge-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DDBE9CB21D1A44EB00CD654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86076AB0561180FB7BC8D742 /* Pods-Binge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Binge/Binge.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Binge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.guilhermerambo.Binge-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBE9C9C1D1A44EA00CD654E /* Build configuration list for PBXProject "Binge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBE9CAE1D1A44EB00CD654E /* Debug */,
+				DDBE9CAF1D1A44EB00CD654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBE9CB01D1A44EB00CD654E /* Build configuration list for PBXNativeTarget "Binge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBE9CB11D1A44EB00CD654E /* Debug */,
+				DDBE9CB21D1A44EB00CD654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDBE9C991D1A44EA00CD654E /* Project object */;
+}
